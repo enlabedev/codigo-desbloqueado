@@ -1,7 +1,3 @@
-Perfecto, aquí está el **Capítulo 9** reformateado según los estándares profesionales establecidos:
-
----
-
 # Capítulo 9: El Mundo Real en tu Código — Archivos, CSV y Datos Externos
 
 ## Introducción: El Momento de la Verdad Digital
