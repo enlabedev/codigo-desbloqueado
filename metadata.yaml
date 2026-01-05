@@ -1,0 +1,14 @@
+---
+title: "CÓDIGO DESBLOQUEADO"
+subtitle: "Piensa, Diseña y Programa con Python"
+author: "Enrique Lazo Bello (ENLABE)"
+date: "2026"
+lang: es-PE
+rights: "Todos los derechos reservados © 2026 Enrique Lazo Bello"
+cover-image: "cover.png" 
+ibooks:
+  stylesheet: estilos.css
+pdf-engine: xelatex
+mainfont: "Roboto" # O "Arial", "Times New Roman" según tu sistema
+monofont: "Consolas" # Para el código Python
+---

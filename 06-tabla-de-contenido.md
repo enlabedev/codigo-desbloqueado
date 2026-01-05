@@ -1,117 +1,4 @@
-# CÓDIGO DESBLOQUEADO
-## Piensa, Diseña y Programa con Python
-
-**Por ENLABE (Enrique Lazo Bello)**
-
----
-
-## DEDICATORIA
-
-*A mi sobrino Alejandro:*
-
-*Por tu forma de aprender y cómo solucionas las cosas. Te dejo este libro como una herramienta más para que tus ideas cobren vida.*
-
----
-
-## AGRADECIMIENTOS
-
-Gracias a **Marco, Ronald, Robert y Manuel**, por la paciencia infinita en las revisiones a mi código y por ayudarme a aprender más cada día sobre Python.
-
-Gracias a **Mila**, por ser mi editora de confianza y dar luz verde a todas mis locuras. Gracias por ayudarme a encontrar la voz correcta para este libro; sin ti, muchas cosas no hubieran sido posibles.
-
-
----
-
-## ACERCA DEL AUTOR
-
-Hola, soy **ENLABE**.
-
-Llevo más de **14 años** construyendo el "cerebro" detrás de muchas aplicaciones que usan a diario. He creado sistemas complejos para entidades financieras, he diseñado plataformas de comercio electrónico y he liderado equipos técnicos internacionales.
-
-Actualmente, soy cofundador de **XOFI.AI**, una plataforma tecnológica con una misión clara: **modernizar las cooperativas de ahorro y crédito en Perú y América Latina**.
-
-A lo largo de mi carrera he trabajado con herramientas potentes como Python, Django y la Nube (AWS), pero **la tecnología no sirve de nada si no resuelve un problema humano real**.
-
-Pero no empecé siendo un experto. Empecé exactamente donde estás tú: mirando una pantalla en blanco, muchas veces copiando y pegando código que no entendía, siguiendo el flujo que se generaba y preguntándome cómo convertir una idea en realidad.
-
-Escribí **"Código Desbloqueado"** basado en el concepto de PlayStation y Xbox (sí, también soy jugador amateur de videojuegos: *¡logro desbloqueado!*) porque quiero enseñarte no solo a escribir líneas de código, sino a pensar como un **Ingeniero**: a diseñar soluciones que no se rompan, a entender el impacto de lo que construyes y a tener la confianza para crear tus propios proyectos.
-
-En este libro no te hablo como un catedrático, sino como un mentor que se sienta a tu lado para explicarte cómo funcionan las cosas en el mundo real.
-
-Mi objetivo es simple: darte las herramientas para que tú también pases de ser un usuario de tecnología a ser un **creador de soluciones**.
-
----
-
-## PREFACIO: POR QUÉ ESTE LIBRO ES DIFERENTE
-
-Vivimos rodeados de millones de algoritmos.
-
-Sacas tu móvil, tocas una aplicación y aparece comida en tu puerta. Hablas al aire y una máquina en la esquina de tu habitación pone tu canción favorita. Escribes un mensaje y llega al otro lado del mundo en milisegundos.
-
-Para la mayoría de las personas, esto parece magia o algo muy difícil. Para los programadores, es simplemente **lógica**.
-
-La mayoría de los libros de programación cometen un error fatal: te enseñan el diccionario antes de enseñarte a hablar. Te obligan a memorizar definiciones de variables, bucles y funciones sin explicarte *para qué sirven* o *qué problema resuelven*. Es como intentar aprender carpintería memorizando los nombres de todas las sierras sin haber tocado nunca un trozo de madera.
-
-**"Código Desbloqueado"** es diferente.
-
-Aquí no empezamos por el código. Empezamos por el **pensamiento**.
-
-1.  **Primero pensamos:** Descomponemos el problema.
-2.  **Luego diseñamos:** Dibujamos la solución (sin código).
-3.  **Finalmente programamos:** Traducimos esa solución a Python.
-
-Este enfoque es lo que separa a los "coders" (que copian y pegan sin entender) de los **desarrolladores de software** (que crean soluciones robustas).
-
-No te voy a mentir: aprender a pensar de esta manera requiere esfuerzo. Tu cerebro tendrá que estirarse en direcciones nuevas. Habrá momentos de frustración. Habrá bugs que te parecerán imposibles de resolver.
-
-Pero te prometo algo: al otro lado de esa frustración hay un superpoder real. La capacidad de crear cosas de la nada usando solo tu mente y un teclado.
-
-Bienvenido al mundo de los programadores.
-
----
-
-## CÓMO LEER ESTE LIBRO
-
-Este no es un libro para leer en el sofá. Es un libro para leer con las manos en el papel, en una pizarra o en el teclado. Para sacarle el máximo provecho, necesitas entender las reglas del juego.
-
-### 1. La Regla de "Cero Imágenes"
-Notarás algo extraño: este libro no tiene capturas de pantalla. No verás fotos de menús, ni ventanas de instalación.
-
-Esto es intencional.
-
-Las interfaces cambian. Los menús se mueven. Si aprendes a buscar "el botón azul en la esquina", te perderás cuando el botón sea verde. En cambio, usaremos **visualización guiada**, **diagramas en texto (ASCII)** y descripciones precisas. Quiero que construyas los modelos mentales en tu cabeza, no que dependas de una foto.
-
-### 2. Tu Laboratorio: Google Colab
-Usaremos **Google Colab**. Es un entorno de programación profesional que vive en tu navegador. Si tienes internet, tienes tu laboratorio listo. En el Capítulo 3 te enseñaré a usarlo.
-
-### 3. El Sistema de Navegación Visual
-A lo largo del libro, no verás imágenes, pero sí encontrarás **bloques de texto resaltados** con iconos específicos. Estos son tus señales de tráfico:
-
-*   **💡 La Bombilla (Ideas y Consejos):**
-    Aquí encontrarás los **Objetivos del Capítulo**, la **Perspectiva del Programador** (cómo piensan los expertos) y **Consejos** prácticos para escribir mejor código. Cuando veas luz, detente: es información que ilumina el camino.
-
-*   **⚠️ El Triángulo de Alerta (Peligros y Errores):**
-    Esta es la zona de seguridad. Marca **Advertencias Críticas**, **Errores Comunes** y **Solución de Problemas**. Si te saltas estos bloques, es probable que tu código falle más adelante. Léelos con atención.
-
-*   **📝 El Bloc de Notas (Contexto):**
-    Información adicional, aclaraciones o matices importantes que no son urgentes, pero que te ayudarán a entender el contexto completo de lo que estás aprendiendo.
-
-*   **🔍 La Lupa (Análisis Profundo):**
-    Aparece cuando necesitamos detenernos a mirar "bajo el capó" de una tecnología o concepto teórico complejo. Es para los curiosos que quieren saber exactamente cómo funciona el engranaje.
-
-### 4. La Metodología de Estudio
-No intentes leer todo el libro en un fin de semana. La programación es una habilidad, como tocar la guitarra.
-*   **Lee el concepto.**
-*   **Escribe el código** (no copies y pegues; teclea).
-*   **Rompe el código:** Cambia valores, borra líneas, mira qué pasa.
-*   **Haz los laboratorios:** Son el examen real.
-
-Si te atascas (y te atascarás), no te rindas. Lee el mensaje de error. Respira. Esa lucha es el aprendizaje ocurriendo en tiempo real.
-
----
-
-
-# 📑 TABLA DE CONTENIDO
+# TABLA DE CONTENIDO
 
 ## MATERIA FRONTAL
 *   **Dedicatoria**
@@ -122,7 +9,7 @@ Si te atascas (y te atascarás), no te rindas. Lee el mensaje de error. Respira.
 
 ---
 
-## 🧠 BLOQUE I: PENSAR COMO PROGRAMADOR (LA MENTALIDAD)
+## BLOQUE I: PENSAR COMO PROGRAMADOR (LA MENTALIDAD)
 
 ### **Capítulo 0: El Mundo Secreto de los Algoritmos**
 *   **Introducción:** El Pensamiento Computacional No Es Solo para Programadores.
@@ -144,7 +31,7 @@ Si te atascas (y te atascarás), no te rindas. Lee el mensaje de error. Respira.
 
 ---
 
-## 🐍 BLOQUE II: EL LENGUAJE DE LA MÁQUINA (LA SINTAXIS)
+## BLOQUE II: EL LENGUAJE DE LA MÁQUINA (LA SINTAXIS)
 
 ### **Capítulo 2: Activando tu Superpoder: El Ritual del 'Hola Mundo'**
 *   **Python:** El lenguaje que habla como humano.
@@ -164,7 +51,7 @@ Si te atascas (y te atascarás), no te rindas. Lee el mensaje de error. Respira.
 
 ---
 
-## ⚙️ BLOQUE III: CONSTRUYENDO LÓGICA (LAS HERRAMIENTAS)
+## BLOQUE III: CONSTRUYENDO LÓGICA (LAS HERRAMIENTAS)
 
 ### **Capítulo 4: El Cerebro Digital — Tomando Decisiones con Condicionales**
 *   **Operadores de Comparación:** Haciendo preguntas binarias (`==`, `!=`, `>`, `<`).
@@ -200,7 +87,7 @@ Si te atascas (y te atascarás), no te rindas. Lee el mensaje de error. Respira.
 
 ---
 
-## 💼 BLOQUE IV: DE CÓDIGO A REALIDAD (LAS APLICACIONES)
+## BLOQUE IV: DE CÓDIGO A REALIDAD (LAS APLICACIONES)
 
 ### **Capítulo 8: Arquitectura de Soluciones — Pensar Antes de Programar**
 *   **El Método de las Cuatro Fases:** Entender, Diseñar, Implementar, Validar.
@@ -243,10 +130,3 @@ Si te atascas (y te atascarás), no te rindas. Lee el mensaje de error. Respira.
 *   **Fase 4 - Debugging Avanzado:** El método de las cinco preguntas.
 *   **Cierre:** El umbral de lo profesional y próximos pasos.
 
----
-
----
-
-*¿Estás listo para dejar de ser un usuario y empezar a ser un creador?*
-
-*Pasa la página. Empecemos.*
